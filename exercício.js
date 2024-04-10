@@ -84,7 +84,71 @@
 //    console.log(`A quantidade de número impares é: ${impares}`);
 //}
 //contarPareseImpares();
-  
+
+//12 
+//const prompt = require('prompt-sync')()
+
+//function main(){
+
+   // const n = Number(prompt("Quantos elementos: "))
+
+   // const vetor = Array(n)
+//}
+ //   for (let i= 0; i < n; i++){
+  //      vetor[i] = Number(prompt(`Elemento ${i}: `))
+ //   }
+    
+ //   let maior = 0
+ //   let menor = 0
+
+  //  for (let i= 0; i < n; i++){
+ //       if(vetor[i] > vetor[maior]){
+ //           maior = i
+ //       }else if (vetor[i] < vetor[menor]){
+//            menor = i
+//        }
+        
+        
+//}
+//console.log(`Maior elemento: ${vetor[maior]}`)
+//console.log(`Menor elemento: ${vetor[menor]}`)
+
+//13 
+//let qtdNums, numero = 0, media = 0, controle = 0
+//qtdNums = parseInt(prompt("Qtd da numero: "))
+//while(controle < qtdNums){
+//    numero = parseInt(prompt("digite um numero: "))
+ //   controle++  
+//}
+///media = numero / qtdNums
+//alert(`A média é: ${media}`)
+
+//14
+
+//éPrimo = true
+//num = 4
+//    if( num % 1 == num && num % num == 1 || éPrimo == false){
+//         console.log("É número primo")
+//   }else{
+//         console.log("Não é número primo")
+//     }
+
+
+  //15
+//function numerosPrimos(numero){
+//    for(let numeroAtual = 2; numeroAtual <= numero; numeroAtual +=1){
+//        let numeroPrimo = true
+//       for (let numeroDivisor = 2; numeroDivisor <= numeroAtual; numeroDivisor +=1){
+//        if(numeroAtual % numeroDivisor === 0 && numeroAtual !== numeroDivisor){
+//        numeroPrimo = false
+//        }
+//       }
+//       if(numeroPrimo === true){
+//        console.log(numeroAtual)
+//       }
+//    } 
+//}
+//console.log(numerosPrimos (50));
     
 
 
